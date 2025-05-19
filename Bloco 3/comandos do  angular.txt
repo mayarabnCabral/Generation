@@ -1,0 +1,8 @@
+ng g c nomeDoComponente --> gera um componente.
+
+ng serve --> roda a aplicação
+
+ng g s nomeDaPasta/nomeDoArquivo --> cria componentes do tipo service
+
+auth --> autenticação
+

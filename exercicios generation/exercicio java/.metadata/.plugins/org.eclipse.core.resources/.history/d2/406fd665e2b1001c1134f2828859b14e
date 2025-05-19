@@ -1,0 +1,10 @@
+package exercicio;
+import java.util.Scanner;
+public class ordem {
+
+	public static void main(String[] args) {
+		Scanner ler= new Scanner 
+
+	}
+
+}

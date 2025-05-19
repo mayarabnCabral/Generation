@@ -1,0 +1,28 @@
+Instalação interna do bootstrap
+
+npm i bootstrap@4.5.3 --> istala o bootstrap no projeto 
+npm install popper.js 
+npm install jquery@latest 
+npm i ngx-bootstrap
+npm i ngx-order-pipe
+
+
+
+-------------------------------------- No angular.json -----------------------------------------------------------
+
+
+subistituir o styles
+
+"styles": [
+"src/styles.css",
+"./node_modules/bootstrap/dist/css/bootstrap.min.css"
+],
+
+
+substituir scripts (geralmente está na linha 34)
+
+"scripts": [
+"./node_modules/jquery/dist/jquery.js",
+"./node_modules/popper.js/dist/umd/popper.min.js",
+"./node_modules/bootstrap/dist/js/bootstrap.js"
+]

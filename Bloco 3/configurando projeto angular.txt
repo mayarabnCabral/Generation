@@ -1,0 +1,31 @@
+npm i ngx-order-pipe --> modulo importante que não vem como padrão
+
+npm i ngx-bootstrap --> instala o booststrap direcionado para angular
+
+instalar bootstrap
+
+npm install bootstrap@latest --save   --> baixa a ultima versão do bootstrap
+
+npm install jquery@latest --save    --> baixa a biblioteca Jquery
+
+npm install popper.js --save    --> baixa a biblioteca javascript
+
+
+-------------------------------------- No angular.json -----------------------------------------------------------
+
+
+subistituir o styles
+
+"styles": [
+"src/styles.css",
+"./node_modules/bootstrap/dist/css/bootstrap.min.css"
+],
+
+
+substituir scripts (geralmente está na linha 34)
+
+"scripts": [
+"./node_modules/jquery/dist/jquery.js",
+"./node_modules/popper.js/dist/umd/popper.min.js",
+"./node_modules/bootstrap/dist/js/bootstrap.js"
+]

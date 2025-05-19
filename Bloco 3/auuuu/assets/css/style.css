@@ -1,0 +1,149 @@
+/*
+. --> cria classe
+# --> cria id, por boas práticas só posso ter um id.
+tag não tem nada na frente
+*/
+
+h1{
+    text-align: center;
+
+     /*troca a color do texto*/
+    color: darkred;
+
+    margin-top: 90px;
+
+    margin-bottom: 30px
+}
+h2{
+    text-align: center;
+    color: black;
+}
+
+/*indica o local*/
+nav{
+        /*mexe no tamanho da margem*/
+    margin: 0%;
+
+        /*aumenta a distancia dentro da estrutura do meu código*/
+    padding: 7px;
+
+        /*muda a cor de fundo do local indicado*/
+    background-color: darkred;
+
+    
+}
+
+body{
+    background-color: rgb(161, 161, 161);
+}
+
+.text{
+       
+    color: black;
+
+         /*muda o tamanho do texto*/
+    font-size: 30px;
+
+        /*muda a fonte do texto*/
+    font-family: rush Seript M7, Lucida handwriting;
+
+    margin: 15px;
+}
+/*margin-bottom: mexe no tamanho da margem*/
+
+            /*permite efeitos interessantes em uma página HTML */
+.textmenu:hover{
+    color: goldenrod;
+}
+a{
+      color: black;
+
+         /*mexe na margem para esquerda*/
+    margin-left: 30px;
+
+          /*muda o tamanho do texto*/
+    font-size: 20px;
+
+        /*tira o tracinho embaixo de link*/
+     text-decoration: none;
+}
+    
+.textcompleto:hover{
+    color: goldenrod;
+}
+
+.textlado{
+    display: flex;
+    flex-flow: row;
+    justify-content: space-around;
+    margin: 40px;
+}
+
+ul{
+          /*deixa as coisas uma do lado da outra (quebra as colunas)*/
+    display: flex;
+
+                  /*retira as configurações (none)*/
+    list-style: none;
+}
+
+
+.container{
+        /*deixa flexivel*/
+    display: flex;
+       
+            /*faz a responsividade */
+    flex-flow: row;
+                    /*como a pagina ficará em telas maiores ou menores (row permite quebra de linhas)*/              
+    
+             /*alinha os itens*/
+    justify-content: center;
+                        /*centraliza*/
+
+        /*alinha o texto com a imagem*/
+    align-items: center;
+                    /*centraliza*/
+}
+
+.video{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.midiaR{
+    width: 100%;
+}
+
+.imgcentro{
+    text-align : center;
+}
+
+.img{
+    display: flex;
+    display: inline-block ;
+    align-items: center;
+}
+
+.imgbdk{
+    display: flex;
+}
+
+.imgRedonda{
+    border-radius: 50%;
+}
+
+#hearder{
+
+    display: flex;
+    gap: 5px
+
+}
+
+#menu {
+    /*deixa fixo na tela*/
+position: fixed;
+top: 5%;
+width:100%;
+margin-top: -2.9em;
+}

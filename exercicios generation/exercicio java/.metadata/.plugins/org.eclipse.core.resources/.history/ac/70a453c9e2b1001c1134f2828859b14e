@@ -1,0 +1,27 @@
+package exercicio;
+import java.util.Scanner;
+public class ordem {
+
+	public static void main(String[] args) {
+		Scanner ler= new Scanner (System.in);
+		double a, b, c ;
+		
+		System.out.print("Digite o primeiro numero: ");
+		a=ler.nextDouble();
+		
+		System.out.print("Digite o segundo numero: ");
+		b=ler.nextDouble();
+		
+		System.out.print("Digite o terceiro numero: ");
+		c=ler.nextDouble();
+		
+		if (a<b && a<c && b<c)
+		{
+			System.out.println("A ordem cresente dos numero é "+a+b+c);
+		}
+		
+		
+		
+	}
+
+}

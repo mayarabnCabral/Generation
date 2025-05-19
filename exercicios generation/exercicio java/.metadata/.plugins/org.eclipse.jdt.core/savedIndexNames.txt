@@ -1,0 +1,4 @@
+INDEX VERSION 1.131+C:\Users\Dell\OneDrive\Área de Trabalho\mayara\exercicios generation\exercicio java\.metadata\.plugins\org.eclipse.jdt.core
+1200804385.index
+1865797976.index
+3883950653.index

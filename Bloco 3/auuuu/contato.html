@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contauuuuto</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    
+</head>
+
+<body>
+    <nav class="textmenu a" id="menu">
+        <ul>
+            <a class="textmenu" href="index.html">
+                <li>Home</li>
+            </a>
+            <a class="textmenu" href="video.html">
+                <li>Video</li>
+            </a>
+            <a class="textmenu" href="contato.html">
+                <li>Contauuuuto</li>
+            </a>
+
+            <a class="textmenu" href="https://mayarabnc.github.io/miiiau/" target="_blank">
+                <li>Site Miiiau</li>
+            </a>
+        </ul>
+    </nav>
+
+    <h1> (: Entre em Contauuuuto comigo :) </h1>
+
+    <div class="textlado">
+        <div>
+            <form>
+                <!--define um formulário HTML para entrada do usuário-->
+
+                    <!--define um rotulo para um elemento-->
+                <label for="nome">Nome:</label> <br>
+
+                <!--define um controle de entrada-->
+                <input type="text" onkeyup="validarNome()" id="nome"></input>
+                                    <!--se eu precionar uma tecla no teclado ira rodar a função colocada-->
+                <div id = "txtNome"></div>
+                <!--<br> por boas praticas não utilizamos a tag br-->
+                <br>
+                <label for="email">E-mail:</label> <br>
+                <input type="text" onkeyup="validarEmail()" id="email"></input>
+                <div id = "txtEmail"></div>
+                <br>
+                <label for="assunto">Assunto:</label> <br>
+                <textarea name="assunto" onkeyup="validarAssunto()" id="assunto" cols="60" rows="5"></textarea>
+                <div id = "txtAssunto"></div>
+                <br>
+                    <!--define um botão clicável-->
+                <button onclick="enviar()">Enviar</button>
+                <br>
+                <br>
+
+                <img class="imgR img" src="https://64.media.tumblr.com/fe290a5d19c1220557f6245fe6186ca3/tumblr_pn197p2Poi1qmw9koo1_250sq.gifv" 
+            alt="gif de um cachorrinho virando a cabeça e sorrindo" >
+        </div>
+
+        <div>
+            <h2>Um endereço:</h2>
+            <p>
+                Paurque Villa Lobos - Áreauuuu de Cães
+            </p>
+
+            <p>São Paulo - SP</p>
+
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3657.627656901356!2d-46.73021218442374!3d-23.545890866907705!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce5721903e3605%3A0xd84b4117bca95a00!2sParque%20Villa%20Lobos%20-%20%C3%81rea%20de%20C%C3%A3es!5e0!3m2!1spt-BR!2sbr!4v1653077743932!5m2!1spt-BR!2sbr"
+                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade" onmousemove=" mapaZoom()" onmouseout="mapaNormal()" id= "mapa"></iframe>
+        </div>
+        </form>
+
+    </div>
+    <hr>
+
+    <div class="imgcentro">
+
+        <a href="https://www.linkedin.com/in/mayarabnc/"><img width="30" src="assets/imagens/linkedin.png"
+                alt="Logo linkedin"></a>
+
+        <a href="https://github.com/Mayarabnc"><img width="30" src="assets/imagens/github.png" alt="Logo Github"></a>
+
+        <p width="30">
+                                                                         <!--alt + 00169-->
+            Todos os direitos reservador para Mayara Bueno Nunes Cabral ©
+        </p>
+    </div>
+
+      <!--chama o arquivo de JavaScript, sempre estará no final-->
+      <script src="assets/JS/script.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,30 @@
+Pixel (px).
+É a unidade de medida fixa mais usada no CSS. Um pixel é um ponto indivisível na tela de 
+exibição de um dispositivo.
+
+Ponto (point).
+Os pontos são tradicionalmente utilizados para CSS de impressão. Um ponto é igual a 1/72 polegadas. 
+Assim como os pixels, os pontos são unidades de tamanho fixo.
+
+Porcentagem (%)
+O percentual parece bastante com a unidade “em”, mas tem algumas diferenças fundamentais.
+
+Primeiro que o tamanho atual da fonte é igual a 100% (ou seja 12pt = 100%).
+
+E durante o uso da unidade por cento, o texto permanece totalmente escalável para dispositivos móveis.
+
+Ems (em).
+Já o “em” é uma unidade escalável. Quando falamos de tamanho de fonte, 1em é igual ao tamanho atual da 
+fonte do elemento-pai.
+
+Exemplo: Se o tamanho da fonte é 12pt, 1em é igual a 12pt. Ems são escaláveis na sua essência. 
+2em seria igual a 24pt e 0.5 seria 6pt, e assim por diante.
+
+Então qual a diferença básica entre pixels, pontos, porcentagens e ems? 
+É que os dois primeiros são unidades de medida fixas e os outros dois, são variáveis.
+
+Portanto, fica bem claro que utilizar pxs ou pts não é adequado para designs responsivos 
+(claro que com a pratica e experiencia mais a demanda de determinados projetos, pode ser necessário 
+especificar alguns valores fixos em algumas situações), o que nos deixa com as outras 2 opções.
+
+
